@@ -1,5 +1,6 @@
 # Polish Messages for React-Admin
-[![Build](https://github.com/Tymek/ra-language-polish/actions/workflows/ci.yml/badge.svg)](https://github.com/Tymek/ra-language-polish/actions)
+
+[![Build](https://github.com/pentech-hu/ra-language-polish/actions/workflows/ci.yml/badge.svg)](https://github.com/pentech-hu/ra-language-polish/actions)
 
 Polish messages for [react-admin](https://github.com/marmelab/react-admin), the frontend framework for building admin applications on top of REST/GraphQL services.
 
@@ -24,12 +25,9 @@ Just like for the `dataProvider` and the `authProvider`, you can inject the `i18
 import { i18nProvider } from './i18nProvider';
 
 const App = () => (
-    <Admin 
-        dataProvider={dataProvider}
-        i18nProvider={i18nProvider}
-    >
-        {/* ... */}
-    </Admin>
+  <Admin dataProvider={dataProvider} i18nProvider={i18nProvider}>
+    {/* ... */}
+  </Admin>
 );
 ```
 
@@ -50,6 +48,7 @@ export const i18nProvider = polyglotI18nProvider(() => pl, 'pl');
 ```
 
 **Tip**: The `ra-i18n-polyglot` package allows to build an `i18nProvider` based on translation messages. It relies on [the Polyglot.js library](https://airbnb.io/polyglot.js/).
+
 ## License
 
 This translation is licensed under the MIT License.
