@@ -13,7 +13,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://npm.pkg.github.com
+          registry-url: https://gitlab.com/api/v4/projects/8921489/packages/npm/
+          scope: pentech-web
       - run: yarn install --frozen-lockfile
       - run: yarn build
       - run: npm publish
