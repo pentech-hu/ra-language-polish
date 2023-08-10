@@ -1,6 +1,6 @@
 {
   "name": "@pentech-web/ra-language-polish",
-  "version": "1.3.9",
+  "version": "4.12.4",
   "description": "Polish messages for react-admin, the frontend framework for building admin applications on top of REST/GraphQL services",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -40,13 +40,11 @@
     "url": "https://github.com/pentech-hu/ra-language-polish/issues"
   },
   "homepage": "https://github.com/pentech-hu/ra-language-polish#readme",
-  "devDependencies": {
-    "@types/node": "15.6.0",
-    "ra-core": "3.15.1",
-    "rimraf": "3.0.2",
-    "typescript": "4.2.4"
+  "dependencies": {
+    "ra-core": "^4.12.4"
   },
-  "peerDependencies": {
-    "ra-core": "3.x"
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^5.1.3"
   }
 }
